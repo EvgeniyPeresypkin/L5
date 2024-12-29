@@ -108,19 +108,19 @@ namespace L5
                 if (a1 == "д")
                 {
                     Console.WriteLine("Вы вышли");
-                    running = false;
+                    running = true;
                     running3 = false;
                 }
                 else if (a1 == "н")
                 {
                     Console.WriteLine("Вы решили остаться");
-                    running = true;
+                    running = false;
                     running3 = false;
                 }
                 else
                 {
                     Console.WriteLine("Ошибка ввода");
-                    running3 = true;
+                    running3 = false;
                 }
 
             }
